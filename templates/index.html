@@ -1,0 +1,41 @@
+<html>
+    <body bgcolor=>
+
+        <center>
+            <img src='static/cover.png' alt="flower" height="300" style="border-radius: 15px;">
+
+        <h1> Sentiment Analysis </h1><br>
+        
+        <form method="POST", action="{{url_for('get_sentiment')}}">
+        
+        <b> Enter Your Review <br><br>
+
+        <input style=" background: #d1d1d1;
+        padding: 12px;
+        border-radius: 3px;
+        width: 400px;
+        height: 50px;
+        font-size: 14px;
+        border: none;" type="text" name="review" placeholder="Enter your review" height="100px">
+
+        <input type="submit" style="display:inline;
+        background-color:black;
+        border-radius: 5px;
+        text-align: center;
+        color: white;
+        font-size: 20px;
+        padding: 10px;
+        width: 100px;
+        border: none;
+        " , value='Predict!' >
+
+
+        </form>
+
+
+       
+        
+    </center>
+
+    </body>
+</html>

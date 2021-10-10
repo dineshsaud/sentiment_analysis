@@ -1,0 +1,31 @@
+<html>
+
+<body>
+
+    <center>
+
+    <h2>  The Review is  </h2>
+    
+    {%if data == "Positive" %}
+    <h1 style="background-color:orange; width: 200px;">Positive </h1>  
+    <img src='static/happyface.jpg' height="200" width="200"style="border-radius: 15px;">  
+
+    {%elif data == "Negative"%}
+    <h1 style="background-color: crimson; width: 200px;" >Negative </h1>
+    <img src='static/sad.jpg' height="200" width="200"style="border-radius: 15px;">
+     
+    {%else%}
+    <h1 style="background-color:peru; width: 200px;">Neutral</h1>
+    <img src='static/neutral.jpeg'height="200" width="200"style="border-radius: 15px;">
+     
+     
+    {%endif%}
+
+        <br><br>
+    <a href='/'>go back to home page</a>
+
+    </center>
+
+</body>
+
+</html>
