@@ -67,4 +67,4 @@ The project is deployed using flask application.
 
 <h2> Project Sample </h2>
 
-<img src='static/Sentiment_analysis_code_walk.gif'">  
+<img src='./static/Sentiment_analysis_code_walk.gif'">  
